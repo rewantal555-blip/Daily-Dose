@@ -101,6 +101,10 @@ h1, h2, h3 {
 #header .display-3 {
     font-weight: 400;
 }
+/* About section */
+#about .row {
+     background-color:var(--background-color);
+}
 
 
 
