@@ -90,6 +90,18 @@ h1, h2, h3 {
     .nav-link.active {
     color:var(--primary-color);
 }
+/* Header */
+#header .row {
+    background-color:var(--background-color);
+}
+#header .lead {
+    color: #c3955e;
+    font-weight: 400;
+}
+#header .display-3 {
+    font-weight: 400;
+}
+
 
 
 
