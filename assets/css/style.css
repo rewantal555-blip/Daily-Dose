@@ -142,3 +142,10 @@ h1, h2, h3 {
 
 
 
+/* Media Queries */
+/* media query: for small and landscape phones, min-width:320px and up */
+@media screen and (min-width:320px) {
+     #menu .card {
+        margin-top :2rem;
+     }
+}
