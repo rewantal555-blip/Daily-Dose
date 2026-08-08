@@ -105,6 +105,35 @@ h1, h2, h3 {
 #about .row {
      background-color:var(--background-color);
 }
+/* Menu section */
+#menu .row{
+     background-color:var(--background-color);
+}
+#menu .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+#menu .card:hover {
+    transform: translateY(-5px);
+}
+#menu .card-title {
+    font-family: var(--secondary-font);
+    color: var(--hover-color);
+}
+#menu .card-img-top {
+    height:200px;
+}
+#menu .card-body {
+    height: 180px;
+}
+ 
+#menu .card-footer {
+    background-color: var(--secondary-background-color);
+    border-top: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
 
 
 
