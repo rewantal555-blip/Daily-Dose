@@ -259,6 +259,15 @@ footer .social-links a {
   -ms-transform: scale(1.03);
   -o-transform: scale(1.03);
 }
+/* Contact Section */
+#contact address svg {
+  font-size: 1.5rem;
+  color: var(--third-heading-color);
+  margin-right: 1rem;
+}
+.table th {
+  color: var(--third-heading-color);
+}
 /* Media Queries */
 /* media query: for small and landscape phones, min-width:320px and up */
 /* menu section */
