@@ -166,6 +166,45 @@ footer .social-links a {
   font-size: 2rem;
   margin-right: 2rem;
 }
+/* Menu page */
+#menu-page h2 {
+  padding: 0;
+}
+.menu-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.menu-categories ul {
+  
+  text-align: center;
+  margin: 30px;
+  
+}
+.menu-categories ul li {
+  margin-bottom: 2rem;
+}
+
+.menu-categories ul li a {
+  text-decoration: none;
+  color: var(--third-heading-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.menu-categories ul li a:hover {
+  color: var(--primary-color);
+}
+
+#menu-page .section {
+  background-color: var(--background-color);
+  margin-top: 5rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 /* Media Queries */
 /* media query: for small and landscape phones, min-width:320px and up */
