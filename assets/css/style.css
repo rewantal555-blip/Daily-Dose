@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /* Css variables */
 :root {
-  --primary-color: #734b1e; /*lightbrown*/
+  --primary-color: #936138; /*lightbrown*/
   --secondary-color: #372316; /*dark brown*/
   --sub-heading-color: #b1844d;
-  --secondary-background-color: #f4ece3;
-  --background-color: #fdfcfb;
-  --navbar-color: #c2967a;
+  --secondary-background-color: #f0ebe5;
+  --background-color: #faf7f2;
+  --navbar-color:#2b1d18 ;  /*#c2967a*/
   --secondary-heading-color: #a4836c;
   --icon-color: #928928;
   --third-heading-color: #a25901;
@@ -17,27 +17,28 @@
 }
 /* Custom styles */
 .custom-button {
-  background-color: var(--primary-color);
+  background-color: #805736;
   color: var(--background-color);
   border: none;
 }
 .custom-button:hover {
   background-color: var(--background-color);
-  color: var(--primary-color);
+  color:#805736;
 }
 .custom-button-outline {
   background-color: var(--background-color);
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  color: #805736;
+  border: 2px solid #805736;
 }
 .custom-button-outline:hover {
-  background-color: var(--primary-color);
+  background-color: #805736;
   color: var(--background-color);
-  border: 2px solid var(--primary-color);
+  border: 2px solid #805736;
 }
 .icon {
   color: var(--third-heading-color);
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .hiding-heading {
   position: absolute;
@@ -67,11 +68,12 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  padding-top: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
 
 .section {
-  padding-top: 2.5rem;
+  padding-top: 2rem;
   
 }
 ul {
@@ -96,12 +98,13 @@ ul {
   font-weight: bold;
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 .navbar-brand:hover {
   color: var(--primary-color);
 }
 .nav-link.active {
-  color: var(--primary-color) !important;
+  color: #b9855a !important;
 }
 .navbar-nav .nav-link {
   color: var(--background-color);
@@ -161,7 +164,7 @@ ul {
   background-color: var(--secondary-background-color);
   border-top: none;
   font-weight: bold;
-  color: var(--primary-color);
+  color: #8f5d35;
 }
 /* footer */
 footer {
@@ -172,6 +175,10 @@ footer .social-links a {
   color: var(--primary-color);
   font-size: 2rem;
   margin-right: 2rem;
+  margin-left: 2rem;
+}
+footer .social-links a:hover {
+  color:var(--background-color);
 }
 /* Menu page */
 #menu-page h2 {
@@ -260,14 +267,83 @@ footer .social-links a {
   -o-transform: scale(1.03);
 }
 /* Contact Section */
+#contact p {
+  line-height: 3;
+}
 #contact address svg {
   font-size: 1.5rem;
   color: var(--third-heading-color);
   margin-right: 1rem;
 }
+.table, tr, td, th {
+  background-color: transparent !important;
+}
 .table th {
   color: var(--third-heading-color);
 }
+
+/* inquiry page */
+#inquiry {
+  background-image: url(../images/coffee-beans.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  /* height: 100vh; */
+}
+#inquiry .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#inquiry .row-background {
+  box-shadow: 0px 0 10px var(--secondary-background-color);
+    margin-top: 10px;
+}
+#inquiry p {
+  padding: 1rem;
+}
+ .form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--third-heading-color);
+} 
+.form-group #subject {
+  color: var(--primary-color);
+}
+.form-group #subject:checked {
+  background-color:var(--secondary-background-color) ;
+} 
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}  
+#inquiry textarea {
+  height:150px;
+}
+
+ /* button {
+  width: 50%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+   background-color: var(--primary-color);
+  color: var(--background-color);
+ 
+} */
 /* Media Queries */
 /* media query: for small and landscape phones, min-width:320px and up */
 /* menu section */
