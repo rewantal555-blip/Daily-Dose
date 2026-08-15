@@ -7,13 +7,12 @@
   --sub-heading-color: #b1844d;
   --secondary-background-color: #f0ebe5;
   --background-color: #faf7f2;
-  --navbar-color:#2b1d18 ;  /*#c2967a*/
+  --navbar-color: #2b1d18; /*#c2967a*/
   --secondary-heading-color: #a4836c;
   --icon-color: #928928;
   --third-heading-color: #a25901;
   --primary-font: "inter", sans-serif;
   --secondary-font: "Fraunces", serif;
-
 }
 /* Custom styles */
 .custom-button {
@@ -23,7 +22,7 @@
 }
 .custom-button:hover {
   background-color: var(--background-color);
-  color:#805736;
+  color: #805736;
 }
 .custom-button-outline {
   background-color: var(--background-color);
@@ -55,7 +54,7 @@
 
 /* Global styles */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   font-family: var(--primary-font);
@@ -68,13 +67,12 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  margin-top: 20px;
+  margin-top: 2rem;
   text-transform: uppercase;
 }
 
 .section {
   padding-top: 2rem;
-  
 }
 ul {
   list-style-type: none;
@@ -120,7 +118,7 @@ ul {
   background-color: var(--background-color);
 }
 #header .lead {
-  color:var(--sub-heading-color);
+  color: var(--sub-heading-color);
   font-weight: 400;
 }
 #header .display-3 {
@@ -178,9 +176,12 @@ footer .social-links a {
   margin-left: 2rem;
 }
 footer .social-links a:hover {
-  color:var(--background-color);
+  color: var(--background-color);
 }
 /* Menu page */
+#menu-page .section {
+  padding: 0;
+}
 #menu-page h2 {
   padding: 0;
 }
@@ -191,10 +192,8 @@ footer .social-links a:hover {
   margin: 20px 0;
 }
 .menu-categories ul {
-  
   text-align: center;
   margin: 30px;
-  
 }
 .menu-categories ul li {
   margin-bottom: 2rem;
@@ -246,7 +245,7 @@ footer .social-links a:hover {
 /* Gallery page */
 #gallery img {
   width: 100%;
-  height:400px;
+  height: 400px;
   margin-bottom: 1rem;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -275,7 +274,10 @@ footer .social-links a:hover {
   color: var(--third-heading-color);
   margin-right: 1rem;
 }
-.table, tr, td, th {
+.table,
+tr,
+td,
+th {
   background-color: transparent !important;
 }
 .table th {
@@ -295,32 +297,35 @@ footer .social-links a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 #inquiry .row-background {
   box-shadow: 0px 0 10px var(--secondary-background-color);
-    margin-top: 10px;
+  margin-top: 10px;
 }
 #inquiry p {
   padding: 1rem;
 }
- .form-group {
+.form-group {
   margin-bottom: 20px;
+  padding: 15px;
 }
 
 .form-group label {
   display: block;
   margin-bottom: 8px;
   color: var(--third-heading-color);
-} 
+  text-align: start;
+  font-size: 20px;
+}
 .form-group #subject {
   color: var(--primary-color);
 }
 .form-group #subject:checked {
-  background-color:var(--secondary-background-color) ;
-} 
+  background-color: var(--secondary-background-color);
+}
 
 .form-group input,
 .form-group select,
@@ -329,12 +334,12 @@ footer .social-links a:hover {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
-}  
+}
 #inquiry textarea {
-  height:150px;
+  height: 150px;
 }
 
- /* button {
+/* button {
   width: 50%;
   padding: 14px;
   border: none;
