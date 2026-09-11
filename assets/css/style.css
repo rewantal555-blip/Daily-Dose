@@ -143,6 +143,9 @@ ul {
 #about .row {
   background-color: var(--background-color);
 }
+#about p {
+  line-height: 1.8;
+}
 /* Menu section */
 #menu .row {
   background-color: var(--background-color);
@@ -158,8 +161,8 @@ ul {
 }
 #menu .card:hover {
   transform: translateY(-5px);
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
+  -webkit-transform:translateY(-5px);
+  -moz-transform:translateY(-5px);
   -ms-transform: translateY(-5px);
   -o-transform: translateY(-5px);
 }
