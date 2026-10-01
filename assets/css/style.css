@@ -16,8 +16,8 @@
 }
 /* Custom styles */
 .custom-button {
-  background-color: var(--button-background-color);
-  color: var(--background-color);
+  background-color:#C9A382;
+  color: var(--navbar-color) !important;
   border: none;
 }
 .custom-button:hover {
@@ -99,16 +99,15 @@ ul {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: var(--secondary-font);
-  color: #b9855a;
+  color: #C9A382;
   text-transform: uppercase;
 }
 .navbar-brand:hover {
-  color: #b9855a;
+  color: #C9A382;
 }
 .nav-link.active {
-  color: #b9855a !important;
+  color:#C9A382 !important;
 }
-
 .navbar-nav .nav-link {
   color: var(--background-color);
 }
