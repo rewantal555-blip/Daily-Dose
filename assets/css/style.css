@@ -2,21 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /* Css variables */
 :root {
-  --primary-color: #936138; /*lightbrown*/
-  --secondary-color: #372316; /*dark brown*/
-  --sub-heading-color: #b1844d;
+  --primary-color:#734B2B;
+  --primary1-color:#c9a382;
+  --secondary-color: #936138; 
+  --sub-heading-color: #6A4E2F;
   --secondary-background-color: #f0ebe5;
   --background-color: #faf7f7;
   --navbar-color: #2b1d18;
   --button-background-color: #805736;
-  --secondary-heading-color: #a4836c;
-  --third-heading-color: #a25901;
+  --card-footer-color: #5E3A1C;
+  --third-heading-color: #7E4601;
+  --price-color:#7E4602;
   --primary-font: "inter", sans-serif;
   --secondary-font: "Fraunces", serif;
 }
 /* Custom styles */
 .custom-button {
-  background-color: #c9a382;
+  background-color: var(--primary1-color);
   color: var(--navbar-color) !important;
   border: none;
 }
@@ -70,7 +72,7 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  color:var(--primary-color);
   margin-top: 2rem;
   text-transform: uppercase;
 }
@@ -99,20 +101,20 @@ ul {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: var(--secondary-font);
-  color: #c9a382;
+  color: var(--primary1-color);
   text-transform: uppercase;
 }
 .navbar-brand:hover {
-  color: #c9a382;
+  color: var(--primary1-color);
 }
 .nav-link.active {
-  color: #c9a382 !important;
+  color: var(--primary1-color) !important;
 }
 .navbar-nav .nav-link {
   color: var(--background-color);
 }
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color:var(--primary1-color);
 }
 
 /* Header */
@@ -182,18 +184,18 @@ ul {
   background-color: #dfd9d1;
   border-top: none;
   font-weight: bold;
-  color: #784821;
+  color: var(--card-footer-color);
 }
 /* footer */
 footer h2 {
-  color: #c9a382;
+  color: var(--primary1-color);
 }
 footer {
   background-color: var(--navbar-color);
   color: var(--background-color);
 }
 footer .social-links a {
-  color: #c9a382;
+  color: var(--primary1-color);
   font-size: 2rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -237,7 +239,7 @@ footer .social-links a:hover {
   font-size: 1.5rem;
 }
 .menu-categories ul li a:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 /* Hot/cold Drinks section */
 .style ul li {
@@ -250,11 +252,11 @@ footer .social-links a:hover {
   align-items: center;
 }
 .style ul li .drink {
-  color: #854a02;
+  color: var(--price-color);
   font-weight: 400;
 }
 .style ul li .price {
-  background-color: #854a02;
+  background-color: var(--price-color);
   color: var(--background-color);
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -315,7 +317,7 @@ th {
   color: white;
 }
 #inquiry h1 {
-  color: #c9a382;
+  color: var(--primary1-color);
 }
 #inquiry .section {
   display: flex;
@@ -366,7 +368,7 @@ th {
 }
 
 .form-group #subject {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-weight: 600;
 }
 
@@ -384,9 +386,9 @@ th {
   height: 150px;
 }
 #inquiry button {
-  background-color: #c9a382;
+  background-color: var(--primary1-color);
   color: var(--navbar-color);
-  border: 1px solid #c9a382;
+  border: 1px solid var(--primary1-color);
   font-weight: 700;
 }
 #inquiry button:hover {
