@@ -185,12 +185,15 @@ ul {
   color: #784821;
 }
 /* footer */
+footer h2 {
+color: #C9A382;
+}
 footer {
   background-color: var(--navbar-color);
   color: var(--background-color);
 }
 footer .social-links a {
-  color: var(--primary-color);
+  color:#C9A382;
   font-size: 2rem;
   margin-right: 1rem;
   margin-left: 1rem;
